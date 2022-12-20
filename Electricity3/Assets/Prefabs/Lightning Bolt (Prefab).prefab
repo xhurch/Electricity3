@@ -1,0 +1,217 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5338379227102894908
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5338379227102894910}
+  m_Layer: 0
+  m_Name: LightningEnd
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5338379227102894910
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5338379227102894908}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 2950238826223555558}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &5338379227813347125
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5338379227813347127}
+  m_Layer: 0
+  m_Name: LightningStart
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5338379227813347127
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5338379227813347125}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -18.560001, y: -0.00999999, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 2950238826223555558}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &6943384709836600723
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2950238826223555558}
+  m_Layer: 0
+  m_Name: Lightning Bolt (Prefab)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2950238826223555558
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6943384709836600723}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 8.76, y: 0.81, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 5338379227872768042}
+  - {fileID: 5338379227813347127}
+  - {fileID: 5338379227102894910}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &5338379227872442098
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 2950238826223555558}
+    m_Modifications:
+    - target: {fileID: 460504, guid: b130633139b221841898b87ec1eea873, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 460504, guid: b130633139b221841898b87ec1eea873, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -8.76
+      objectReference: {fileID: 0}
+    - target: {fileID: 460504, guid: b130633139b221841898b87ec1eea873, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.81
+      objectReference: {fileID: 0}
+    - target: {fileID: 460504, guid: b130633139b221841898b87ec1eea873, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 460504, guid: b130633139b221841898b87ec1eea873, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 460504, guid: b130633139b221841898b87ec1eea873, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 460504, guid: b130633139b221841898b87ec1eea873, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 460504, guid: b130633139b221841898b87ec1eea873, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 11499182, guid: b130633139b221841898b87ec1eea873, type: 3}
+      propertyPath: Forkedness
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 11499182, guid: b130633139b221841898b87ec1eea873, type: 3}
+      propertyPath: ChaosFactor
+      value: 0.128
+      objectReference: {fileID: 0}
+    - target: {fileID: 11499182, guid: b130633139b221841898b87ec1eea873, type: 3}
+      propertyPath: Generations
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 11499182, guid: b130633139b221841898b87ec1eea873, type: 3}
+      propertyPath: GlowIntensity
+      value: 0.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 11499182, guid: b130633139b221841898b87ec1eea873, type: 3}
+      propertyPath: MultiThreaded
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 11499182, guid: b130633139b221841898b87ec1eea873, type: 3}
+      propertyPath: SortLayerName
+      value: Default
+      objectReference: {fileID: 0}
+    - target: {fileID: 11499182, guid: b130633139b221841898b87ec1eea873, type: 3}
+      propertyPath: SourceBlendMode
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 11499182, guid: b130633139b221841898b87ec1eea873, type: 3}
+      propertyPath: SortOrderInLayer
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 11499182, guid: b130633139b221841898b87ec1eea873, type: 3}
+      propertyPath: MaximumLightsPerBatch
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 11499182, guid: b130633139b221841898b87ec1eea873, type: 3}
+      propertyPath: TrunkWidthRange.Maximum
+      value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 11499182, guid: b130633139b221841898b87ec1eea873, type: 3}
+      propertyPath: TrunkWidthRange.Minimum
+      value: 0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 11499182, guid: b130633139b221841898b87ec1eea873, type: 3}
+      propertyPath: LightningPath.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 11499182, guid: b130633139b221841898b87ec1eea873, type: 3}
+      propertyPath: LightParameters.LightRange
+      value: 24
+      objectReference: {fileID: 0}
+    - target: {fileID: 11499182, guid: b130633139b221841898b87ec1eea873, type: 3}
+      propertyPath: LightningPath.Array.data[0]
+      value: 
+      objectReference: {fileID: 5338379227813347125}
+    - target: {fileID: 11499182, guid: b130633139b221841898b87ec1eea873, type: 3}
+      propertyPath: LightningPath.Array.data[1]
+      value: 
+      objectReference: {fileID: 5338379227102894908}
+    - target: {fileID: 11499182, guid: b130633139b221841898b87ec1eea873, type: 3}
+      propertyPath: LightParameters.LightPercent
+      value: 0.01
+      objectReference: {fileID: 0}
+    - target: {fileID: 11499182, guid: b130633139b221841898b87ec1eea873, type: 3}
+      propertyPath: LightParameters.LightIntensity
+      value: 0.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 11499182, guid: b130633139b221841898b87ec1eea873, type: 3}
+      propertyPath: LightningPath.List.Array.data[0]
+      value: 
+      objectReference: {fileID: 5338379227813347125}
+    - target: {fileID: 11499182, guid: b130633139b221841898b87ec1eea873, type: 3}
+      propertyPath: LightningPath.List.Array.data[1]
+      value: 
+      objectReference: {fileID: 5338379227102894908}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: b130633139b221841898b87ec1eea873, type: 3}
+--- !u!4 &5338379227872768042 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 460504, guid: b130633139b221841898b87ec1eea873, type: 3}
+  m_PrefabInstance: {fileID: 5338379227872442098}
+  m_PrefabAsset: {fileID: 0}

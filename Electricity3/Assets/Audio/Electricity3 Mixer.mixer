@@ -15,7 +15,11 @@ AudioMixerController:
   m_SuspendThreshold: -80
   m_EnableSuspend: 1
   m_UpdateMode: 0
-  m_ExposedParameters: []
+  m_ExposedParameters:
+  - guid: d8d62321397db6d4589defda025324c7
+    name: cutoff
+  - guid: 7314ae42dd6f9c94fb031f23a406925f
+    name: distortionDrive
   m_AudioMixerGroupViews:
   - guids:
     - 400d9994f94f67f4faa50fb9bc7c6379
@@ -76,7 +80,7 @@ AudioMixerSnapshotController:
     43c629a039d0b1340a0fc3d60d3c0266: 10
     30d5d8b0e35b05f4f9ce70b155e56201: 0
     718678d071c74944b82c1115da789ff3: 11
-    d8d62321397db6d4589defda025324c7: 90.8
+    d8d62321397db6d4589defda025324c7: 89.4
     ed1784219bcc0c24698ca7dc818e99df: 8
     9b9faa21ac80ea04285c0e1d4b7c4455: 0.5
     aab3d931232169b41ab69fc164449ce4: 0
@@ -89,7 +93,7 @@ AudioMixerSnapshotController:
     0a9fa2f16dbaf86498991864331c7b9e: 1
     54b64212850567841a09acaa2cb4980f: 0
     e024c142cf6367d4c8a86d2f5a2b1318: 0
-    7314ae42dd6f9c94fb031f23a406925f: 10.2969265
+    7314ae42dd6f9c94fb031f23a406925f: 11
     151e3b52b5a0b744d89c746f625c609c: 0
     f6e79272ec3fe3c46b5a89d09359575d: 0
     d8e4bf82792592543bf3fdb1e09f37b8: 0
